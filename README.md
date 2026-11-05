@@ -1,0 +1,1 @@
+# Esta es la pagina base: https://www.figma.com/community/file/1572397359299151978/creative-travel-blog?q_id=a5dc1ea0-7362-4f5c-b635-3a60fe6b747c
