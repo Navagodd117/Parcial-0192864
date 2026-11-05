@@ -1,23 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
-    <title>Viajes</title>
-   
-
+  <link rel="stylesheet" href="styles/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stories and photos of long walks, wrong turns, and everyday discoveries.">
+  <title>The Roam Report — Stories from the road</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-</head>
+<body>
+  <main>
+    <section class="landing" id="home">
+      <div class="intro-panel">
+        <nav class="nav-pill" aria-label="Main navigation">
+          <a class="current" href="#home">Home</a>
+          <a href="#articles">Articles</a>
+          <a href="#about">About</a>
+        </nav>
 
-<body style="background-color: rgb(197, 217, 250)">
-    <h1>Summer in  Sri Lanka
-        
-    </h1>
+        <div class="intro-copy">
+          <p class="brand">The Roam<br>Report</p>
+          <svg class="travel-doodle" viewBox="0 0 190 112" role="img" aria-label="Dibujo de un tren entre árboles">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+              <path d="M27 89c25-13 44-18 72-18 26 0 40 6 61 17M38 99c22-11 41-16 65-16 22 0 35 5 52 13M52 31c-5 11-4 19 1 26m0-17c-10 2-15 0-19-6 9-3 15-1 19 6Zm1-8c4-10 10-14 17-14-1 9-6 14-17 14Zm-5 16c-10 2-16 7-18 14 10 0 16-5 18-14Zm4-1c5-10 11-14 18-13-2 9-8 14-18 13Zm76-31c-3 12-1 20 5 26m-4-16c-9 0-14-3-17-9 9-2 14 1 17 9Zm3-8c6-9 12-12 19-10-3 9-9 13-19 10Zm-1 17c-9 4-13 10-14 17 9-2 14-8 14-17Zm-9 39 4 10m7-10 4 10m10-10 4 10"/>
+              <path d="M57 60h76l10 9v12H52V66l5-6Zm9 0V48h48v12m-35 0V49m14 11V49m14 11V49m-37 15h21v11H63z"/>
+              <circle cx="69" cy="83" r="6"/><circle cx="125" cy="83" r="6"/>
+              <path d="M44 103h116m-96-5 8 5m19-8 7 8m21-8 6 8"/>
+            </g>
+          </svg>
+          <p class="tagline">Stories and photos of long walks,<br>wrong turns, and everyday discoveries</p>
+        </div>
 
-    <h3>A 10 - Day Journey Across the Island State </h3>
+        <div class="location-line"><span>Currently in</span><span class="globe">◎</span><strong>Dallol, Ethiopia</strong><span class="globe">◎</span><strong>14.2417° N</strong><span class="globe">◎</span></div>
+      </div>
 
+      <div class="cover-panel">
+        <img class="cover-landscape" src="assets/images/desert-road.png" alt="Desierto visto desde la carretera">
+        <div class="cover-tint"></div>
+        <div class="cover-topline"><span>INDEPENDENT TRAVEL JOURNAL</span><span>ISSUE NO. 08 &nbsp;·&nbsp; 2025</span></div>
+        <div class="focus-mark" aria-hidden="true"></div>
+        <article class="featured-card">
+          <img src="assets/images/orange-house.png" alt="Viajera junto a una casa naranja en el campo">
+          <p class="card-label">FEATURED ARTICLE</p>
+          <h1>Where the road<br>takes its time</h1>
+          <a href="#articles" class="card-link">READ THE STORY <span>↗</span></a>
+        </article>
+        <a class="scroll-prompt" href="#articles">Scroll for more <span>↓</span></a>
+        <div class="cover-caption"><span>THE LONG WAY AROUND</span><span>FIELD NOTE 014</span></div>
+      </div>
+    </section>
 
+    <section class="articles-section" id="articles">
+      <div class="section-heading"><div><p class="eyebrow">FROM THE ROAD</p><h2>Stories worth slowing down for.</h2></div><a href="#about" class="all-link">ALL ARTICLES&nbsp; ↗</a></div>
+      <div class="article-grid">
+        <article class="article-card"><a href="#about" class="article-photo"><img src="assets/images/desert-road.png" alt="Carretera en el desierto de Dallol"><span>01 &nbsp; ETHIOPIA</span></a><p class="article-meta">FIELD NOTES &nbsp;·&nbsp; 6 MIN READ</p><h3>A window seat through the Dallol desert</h3><a class="read-link" href="#about">READ ARTICLE &nbsp; ↗</a></article>
+        <article class="article-card"><a href="#about" class="article-photo"><img src="assets/images/orange-house.png" alt="Mujer caminando junto a una casa de campo naranja"><span>02 &nbsp; SLOW TRAVEL</span></a><p class="article-meta">ON THE ROAD &nbsp;·&nbsp; 8 MIN READ</p><h3>The small places that make us stay</h3><a class="read-link" href="#about">READ ARTICLE &nbsp; ↗</a></article>
+        <article class="article-card"><a href="#about" class="article-photo"><img src="assets/images/rome.png" alt="El Coliseo de Roma entre árboles"><span>03 &nbsp; ITALY</span></a><p class="article-meta">CITY GUIDE &nbsp;·&nbsp; 5 MIN READ</p><h3>Rome, best discovered on foot</h3><a class="read-link" href="#about">READ ARTICLE &nbsp; ↗</a></article>
+        <article class="article-card"><a href="#about" class="article-photo"><img src="assets/images/travelers-in-fields.png" alt="Viajeros cruzando campos verdes"><span>04 &nbsp; PEOPLE</span></a><p class="article-meta">PORTRAITS &nbsp;·&nbsp; 7 MIN READ</p><h3>Meet the people who carry a place</h3><a class="read-link" href="#about">READ ARTICLE &nbsp; ↗</a></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <p class="eyebrow">A NOTE FROM THE EDITOR</p>
+      <h2>Take the long way.<br><em>Look a little closer.</em></h2>
+      <p class="about-copy">The Roam Report is a collection of stories, photographs, and small discoveries from the road. Made for curious people who know the best moments rarely make the itinerary.</p>
+      <a href="#home" class="about-link">BACK TO THE TOP &nbsp; ↑</a>
+    </section>
+    <footer><a class="footer-brand" href="#home">The Roam Report</a><span>STORIES AND PHOTOS FROM THE ROAD</span><span>© 2025 THE ROAM REPORT</span></footer>
+  </main>
 </body>
-<footer>
-    <h4>14.2417</h4>
-</footer>
 </html>
